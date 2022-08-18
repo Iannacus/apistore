@@ -1,0 +1,40 @@
+p{
+  margin: 2px;
+  font-family: "Verdana";
+}
+h3{
+  margin-top: 2px;
+  font-family: "Verdana";
+}
+
+.tarjeta{
+  margin-left: 20px;
+  width: 250px;
+  background: #D0DDDA;
+  border-radius: 10px;
+  box-shadow: 2px 7px 10px #6A6A6A;
+  margin-bottom: 20px;
+}
+
+
+
+img{
+  width: 100%;
+}
+
+.contenido{
+  background: #FFF;
+  padding: 10px 15px; 
+  border-radius: 0 0 10px 10px;
+}
+
+.categoria{
+  color: #ACACAC;
+}
+.precio{
+  color: #FF4233;
+}
+
+.tarjetas {
+  display: flex;
+}
