@@ -43,6 +43,7 @@ img{
 
 .tarjetas {
   display: flex;
+  margin-top: 50px;
 }
 
 .btn {
