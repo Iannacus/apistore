@@ -22,6 +22,12 @@ img{
   width: 100%;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
 .contenido{
   background: #FFF;
   padding: 10px 15px; 
@@ -37,4 +43,41 @@ img{
 
 .tarjetas {
   display: flex;
+}
+
+.btn {
+  background: #c9c9c9;
+  border: 1px solid #554f4f;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+form {
+  width: 70%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.form-container {
+  display: block;
+}
+
+@media(max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 7px 12px;
+  border-radius: 7px;
 }
